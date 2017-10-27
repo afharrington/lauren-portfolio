@@ -15,8 +15,10 @@ class Home extends Component {
   }
 
   componentDidMount() {
-    this.animateBrands();
     console.log('test');
+    setInterval(() => {
+      console.log('switch');
+    }, 1000);
   }
 
 
