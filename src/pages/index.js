@@ -16,6 +16,7 @@ class Home extends Component {
 
   componentDidMount() {
     this.animateBrands();
+    console.log('test');
   }
 
 
@@ -26,6 +27,7 @@ class Home extends Component {
       let visibleBrand = brands.shift();
       brands.push(visibleBrand);
       this.setState({ brands: visibleBrand});
+      console.log('switch');
     }, 1000);
   }
 
