@@ -2,7 +2,7 @@ import React from 'react'
 import './brand.scss';
 
 const Brand = ({ brand }) => (
-  <h1 className='brand'>{brand}</h1>
+  <div className='brand'>{brand}</div>
 )
 
 export default Brand;

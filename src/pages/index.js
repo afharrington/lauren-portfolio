@@ -42,14 +42,11 @@ class Home extends Component {
           <h1>Hi! My name is Lauren. I'm a creative strategist with an eye for the future.</h1>
         </div>
         <div className='home-section'>
-          <h1>I help</h1>{this.renderBrands()}
-          <h1>find their vision and design ways to make that vision happen.</h1>
-        </div>
-        <div className='home-section'>
-          <h1>How? By being a researcher at heart: someone who's born curious but knows how to turn big patterns into future-forward, actionable ideas.
+          <h1>I help {this.renderBrands()}</h1>
+          <h1>find their vision and design ways to make that vision happen. How? By being a researcher at heart: someone who's born curious but knows how to turn big patterns into future-forward, actionable ideas.
           </h1>
         </div>
-        <div className='home-section'>
+        <div className='contact-section'>
           <h1>Feeling <span>curious</span> too? Let’s chat.
           </h1>
         </div>
