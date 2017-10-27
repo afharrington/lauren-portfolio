@@ -15,7 +15,7 @@ class Home extends Component {
   }
 
   componentDidMount() {
-    animateBrands();
+    this.animateBrands();
   }
 
 
