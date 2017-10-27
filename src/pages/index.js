@@ -26,7 +26,6 @@ class Home extends Component {
       let visibleBrand = brands.shift();
       brands.push(visibleBrand);
       this.setState({ brands: visibleBrand});
-      console.log('switch');
     }, 1000);
   }
 
@@ -43,7 +42,7 @@ class Home extends Component {
           <h1>Hi! My name is Lauren. I'm a creative strategist with an eye for the future.</h1>
         </div>
         <div className='home-section'>
-        I help {this.renderBrands()}
+          <h1>I help</h1>{this.renderBrands()}
           <h1>find their vision and design ways to make that vision happen.</h1>
         </div>
         <div className='home-section'>
