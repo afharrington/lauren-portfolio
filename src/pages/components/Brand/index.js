@@ -1,8 +1,15 @@
-import React from 'react'
-import './brand.scss';
+import React from 'react';
+import styled from 'styled-components';
 
 const Brand = ({ brand }) => (
-  <div className='brand'>{brand}</div>
-)
+  <Wrapper>Brands like {brand}.</Wrapper>
+);
 
 export default Brand;
+
+const Wrapper = styled.div`
+  padding: 0px;
+  display: inline-block;
+  color: white;
+  font-family: 'Share', sans-serif;
+`;
