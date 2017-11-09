@@ -99,6 +99,11 @@ const FormElement = styled.div`
     width: 50%;
     margin-left: 25%;
     margin-bottom: 5px;
+    
+    @media (max-width: 600px) {
+      width: 80%;
+      margin-left: 10%;
+    }
   }
 
   input {
@@ -110,6 +115,11 @@ const FormElement = styled.div`
     width: 50%;
     margin-left: 25%;
     margin-bottom: 10px;
+
+    @media (max-width: 600px) {
+      width: 80%;
+      margin-left: 10%;
+    }
   }
 `;
 
@@ -122,6 +132,11 @@ const MessageInput = styled.div`
     width: 50%;
     margin-left: 25%;
     margin-bottom: 3px;
+
+    @media (max-width: 600px) {
+      width: 80%;
+      margin-left: 10%;
+    }
   }
 
   textarea {
@@ -132,6 +147,11 @@ const MessageInput = styled.div`
     width: 50%;
     margin-left: 25%;
     margin-bottom: 10px;
+
+    @media (max-width: 600px) {
+      width: 80%;
+      margin-left: 10%;
+    }
   }
 `;
 
@@ -146,6 +166,11 @@ const Submit = styled.div`
     border-radius: 3px;
     border: none;
     background-color: #B89031;
+
+    @media (max-width: 600px) {
+      width: 80%;
+      margin-left: 10%;
+    }
   }
 `;
 
