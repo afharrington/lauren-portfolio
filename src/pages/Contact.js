@@ -189,9 +189,16 @@ const LinkContainer = styled.div`
   margin-bottom: 5px;
 `;
 
-const PageLink = styled.p`
-  color: #7AA55B;
-  font-family: 'Share', sans-serif;
+const PageLink = styled.div`
+  a {
+    color: #7AA55B;
+    font-family: 'Share', sans-serif;
+    text-decoration: none;
+  }
+
+  a:visited {
+    color: #7AA55B;
+  }
 `;
 
 export default Contact;

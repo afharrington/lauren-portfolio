@@ -75,7 +75,7 @@ class Home extends Component {
         <View>
           <TextBlock>Hi! My name is Lauren.</TextBlock>
           <TextBlock>I'm a creative strategist with an eye for the future. I help brands find their visions and design ways to make them reality. {this.renderBrands()} </TextBlock>
-          <TextBlock>At heart, I’m a researcher - someone who was born curious but knows how to turn big patterns into actionable plans. If you’ve got a fascinating problem or a great idea for the future, say <a onClick={this.scrollToContact}>hello</a>.</TextBlock>
+          <TextBlock>At heart, I’m a researcher - someone who was born curious but knows how to turn big patterns into actionable plans. If you’ve got a fascinating problem or a great idea for the future, say <a href='#contactSection'>hello</a>.</TextBlock>
         </View>
 
         <LinkContainer>
