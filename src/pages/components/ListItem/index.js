@@ -13,5 +13,6 @@ const Wrapper = styled.h2`
 
   @media (max-width: 500px) {
     font-size: 24px;
+    margin-bottom: 10px;
   }
 `;
