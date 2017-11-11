@@ -191,6 +191,7 @@ const LinkContainer = styled.div`
 
 const PageLink = styled.div`
   a {
+    cursor: pointer;
     color: #7AA55B;
     font-family: 'Share', sans-serif;
     text-decoration: none;

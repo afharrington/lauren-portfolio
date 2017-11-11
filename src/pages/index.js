@@ -127,6 +127,7 @@ const TextBlock = styled.h1`
   font-family: 'Share', sans-serif;
 
   a {
+    text-decoration: underline;
     color: #7AA55B;
     cursor: pointer;
     transition: all 0.5s ease;
@@ -147,6 +148,9 @@ const LinkContainer = styled.div`
 const PageLink = styled.p`
   color: #7AA55B;
   font-family: 'Share', sans-serif;
+  a {
+    cursor: pointer;
+  }
 `;
 
 
