@@ -69,7 +69,7 @@ class Home extends Component {
         <HeaderContainer>
           <HeaderLink><a href='https://www.instagram.com/lwong10/' target='_blank' rel="noopener noreferrer"><i className="fa fa-instagram"/></a></HeaderLink>
           <HeaderLink><a href='https://www.linkedin.com/in/lwong10/' target='_blank' rel='noopener noreferrer'><i className="fa fa-linkedin"/></a></HeaderLink>
-          <HeaderLink><a onClick={this.scrollToContact}><i className="fa fa-envelope"/></a></HeaderLink>
+          <HeaderLink><a href='#contactSection'><i className="fa fa-envelope"/></a></HeaderLink>
         </HeaderContainer>
 
         <View>
@@ -132,6 +132,9 @@ const TextBlock = styled.h1`
     transition: all 0.5s ease;
   }
 
+  @media (max-width: 500px) {
+    font-size: 24px;
+  }
 `;
 
 const LinkContainer = styled.div`

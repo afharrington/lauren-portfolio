@@ -39,7 +39,7 @@ class Contact extends Component {
   render() {
     return (
       <View>
-        <SectionHeader><h1>Contact Me</h1></SectionHeader>
+        <SectionHeader id="contactSection"><h1>Contact Me</h1></SectionHeader>
         <form action="https://formspree.io/anna@pineappleny.com" method="POST">
           <FormElement>
             <label>
@@ -68,6 +68,13 @@ class Contact extends Component {
             <input onClick={this.handleSubmit} type="submit" value="Send"/>
           </Submit>
         </form>
+
+        <LinkContainer>
+          <PageLink>
+            <a href="#"><i className="fa fa-long-arrow-up"/> Back to Top</a>
+          </PageLink>
+        </LinkContainer>
+
       </View>
     )
   }
@@ -101,8 +108,8 @@ const FormElement = styled.div`
     margin-bottom: 5px;
 
     @media (max-width: 600px) {
-      width: 80%;
-      margin-left: 10%;
+      width: 90%;
+      margin-left: 5%;
     }
   }
 
@@ -117,8 +124,8 @@ const FormElement = styled.div`
     margin-bottom: 10px;
 
     @media (max-width: 600px) {
-      width: 80%;
-      margin-left: 10%;
+      width: 90%;
+      margin-left: 5%;
     }
   }
 `;
@@ -134,8 +141,8 @@ const MessageInput = styled.div`
     margin-bottom: 3px;
 
     @media (max-width: 600px) {
-      width: 80%;
-      margin-left: 10%;
+      width: 90%;
+      margin-left: 5%;
     }
   }
 
@@ -149,8 +156,8 @@ const MessageInput = styled.div`
     margin-bottom: 10px;
 
     @media (max-width: 600px) {
-      width: 80%;
-      margin-left: 10%;
+      width: 90%;
+      margin-left: 5%;
     }
   }
 `;
@@ -168,10 +175,23 @@ const Submit = styled.div`
     background-color: #7aa55b;
 
     @media (max-width: 600px) {
-      width: 80%;
-      margin-left: 10%;
+      width: 90%;
+      margin-left: 5%;
     }
   }
+`;
+
+
+const LinkContainer = styled.div`
+  width: 100%;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 5px;
+`;
+
+const PageLink = styled.p`
+  color: #7AA55B;
+  font-family: 'Share', sans-serif;
 `;
 
 export default Contact;

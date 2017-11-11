@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Link from 'gatsby-link';
 import styled from 'styled-components';
 import ListItem from './components/ListItem';
+import 'font-awesome/css/font-awesome.min.css';
 
 class Skills extends Component {
 
@@ -63,6 +64,10 @@ const ListTitle = styled.h1`
 
   @media (max-width: 950px) {
     font-size: 30px;
+  }
+
+  @media (max-width: 500px) {
+    font-size: 24px;
   }
 `;
 

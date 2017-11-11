@@ -10,4 +10,8 @@ export default ListItem;
 const Wrapper = styled.h2`
   font-family: 'Share', sans-serif;
   margin-bottom: 8px;
+
+  @media (max-width: 500px) {
+    font-size: 24px;
+  }
 `;
