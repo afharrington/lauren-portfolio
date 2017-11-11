@@ -40,7 +40,7 @@ const View = styled.div`
 
 const List = styled.div`
   text-align: center;
-  color: #B89031;
+  color: #434343;
   display: inline-block;
   width: 400px;
   margin: 15px;
@@ -58,7 +58,7 @@ const List = styled.div`
 
 const ListTitle = styled.h1`
   font-family: 'Share', sans-serif;
-  color: white;
+  color: #7aa55b;
   font-size: 36px;
 
   @media (max-width: 950px) {

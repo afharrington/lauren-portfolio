@@ -83,10 +83,10 @@ const View = styled.div`
 const SectionHeader = styled.div`
   width: 100%;
   text-align: center;
-  color: white;
+  color: #434343;
 
   h1 {
-    // text-transform: uppercase;
+
     font-family: 'Share', sans-serif;
   }
 `;
@@ -94,12 +94,12 @@ const SectionHeader = styled.div`
 const FormElement = styled.div`
 
   label {
-    color: white;
+    color: #434343;
     display: block;
     width: 50%;
     margin-left: 25%;
     margin-bottom: 5px;
-    
+
     @media (max-width: 600px) {
       width: 80%;
       margin-left: 10%;
@@ -127,7 +127,7 @@ const MessageInput = styled.div`
   display: block;
 
   label {
-    color: white;
+    color: #434343;
     display: block;
     width: 50%;
     margin-left: 25%;
@@ -165,7 +165,7 @@ const Submit = styled.div`
     margin-left: 25%;
     border-radius: 3px;
     border: none;
-    background-color: #B89031;
+    background-color: #7aa55b;
 
     @media (max-width: 600px) {
       width: 80%;

@@ -71,7 +71,7 @@ class Home extends Component {
           <HeaderLink><a href='https://www.linkedin.com/in/lwong10/' target='_blank' rel='noopener noreferrer'><i className="fa fa-linkedin"/></a></HeaderLink>
           <HeaderLink><a onClick={this.scrollToContact}><i className="fa fa-envelope"/></a></HeaderLink>
         </HeaderContainer>
-        
+
         <View>
           <TextBlock>Hi! My name is Lauren.</TextBlock>
           <TextBlock>I'm a creative strategist with an eye for the future. I help brands find their visions and design ways to make them reality. {this.renderBrands()} </TextBlock>
@@ -79,9 +79,6 @@ class Home extends Component {
         </View>
 
         <LinkContainer>
-          <PageLink>
-            <a onClick={this.scrollToSkills}>Interests and skill sets</a>
-          </PageLink>
           <PageLink>
             <a onClick={this.scrollToSkills}><i className="fa fa-long-arrow-down"/></a>
           </PageLink>
@@ -114,7 +111,7 @@ const HeaderLink = styled.div`
   line-height: 75px;
 
   .fa {
-    color: white;
+    color: #434343;
     cursor: pointer;
   }
 `;
@@ -124,20 +121,17 @@ const View = styled.div`
 `;
 
 const TextBlock = styled.h1`
-  color: #B89031;
+  color: #434343;
   line-height: 1.2;
   margin-bottom: 15px;
   font-family: 'Share', sans-serif;
 
   a {
-    color: white;
+    color: #7AA55B;
     cursor: pointer;
     transition: all 0.5s ease;
   }
 
-  a:hover {
-    color: #B89031;
-  }
 `;
 
 const LinkContainer = styled.div`
@@ -148,7 +142,7 @@ const LinkContainer = styled.div`
 `;
 
 const PageLink = styled.p`
-  color: white;
+  color: #7AA55B;
   font-family: 'Share', sans-serif;
 `;
 

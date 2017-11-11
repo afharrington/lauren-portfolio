@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Share');
 
 .fa {
-  color:  #B89031;
+  color:  #434343;
   font-size: 32px;
 }
 a:visited {
-  color: white;
+  color: #7AA55B;
 }
 html {
   font-family: 'Share', sans-serif;
-  background-color: #434343;
+  background-color: #EFEFEF;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }

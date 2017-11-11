@@ -9,9 +9,7 @@ const Thankyou = () => (
       <Link to="/"><i className="fa fa-long-arrow-left"/>Back</Link>
     </HomeLink>
     <MessageContainer>
-      <h2>Thanks for getting in touch!</h2>
-      <h2>I will return your message as soon as possible.</h2>
-      <h2> - Lauren </h2>
+      <h2>Thanks for getting in touch! - Lauren</h2>
     </MessageContainer>
   </div>
 )

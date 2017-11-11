@@ -10,6 +10,6 @@ export default Brand;
 const Wrapper = styled.div`
   padding: 0px;
   display: inline-block;
-  color: white;
+  color: #7aa55b;
   font-family: 'Share', sans-serif;
 `;
