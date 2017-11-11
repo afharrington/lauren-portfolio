@@ -34,7 +34,7 @@ const View = styled.div`
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  margin-top: 100px;
+  margin-top: 200px;
   margin-bottom: 300px;
 `;
 
