@@ -40,7 +40,7 @@ class Contact extends Component {
     return (
       <View>
         <SectionHeader id="contactSection"><h1>Contact Me</h1></SectionHeader>
-        <form action="https://formspree.io/hello@laurenwong.nyc" method="POST">
+        <form action="https://formspree.io/lauren.wong.10@gmail.com" method="POST">
           <FormElement>
             <label>
               Name
