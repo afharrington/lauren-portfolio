@@ -40,7 +40,7 @@ class Contact extends Component {
     return (
       <View>
         <SectionHeader id="contactSection"><h1>Contact Me</h1></SectionHeader>
-        <form action="https://formspree.io/anna@pineappleny.com" method="POST">
+        <form action="https://formspree.io/hello@laurenwong.nyc" method="POST">
           <FormElement>
             <label>
               Name
@@ -163,6 +163,7 @@ const MessageInput = styled.div`
 `;
 
 const Submit = styled.div`
+  height: 40px;
 
   input {
     color: white;
@@ -175,6 +176,7 @@ const Submit = styled.div`
     background-color: #7aa55b;
 
     @media (max-width: 600px) {
+      height: 40px;
       width: 90%;
       margin-left: 5%;
     }
