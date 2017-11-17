@@ -27,7 +27,7 @@ const HomeLink = styled.div`
   }
 
   a {
-    color: white;
+    color: #434343;
     font-family: 'Share', sans-serif;
     text-transform: uppercase;
     font-size: 30px;
@@ -40,7 +40,7 @@ const MessageContainer = styled.div`
   text-align: center;
 
   h2 {
-    color: white;
+    color: #434343;
     font-family: 'Share', sans-serif;
   }
 `;
